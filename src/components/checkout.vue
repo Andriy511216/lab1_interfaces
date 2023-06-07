@@ -18,6 +18,7 @@
 					<div class="input-group mb-3">
 						<span class="input-group-text" id="username">City</span>
 						<input
+							id="city"
 							type="text"
 							class="form-control"
 							placeholder="City"
@@ -28,6 +29,7 @@
 					<div class="input-group mb-3">
 						<span class="input-group-text" id="username">Address</span>
 						<input
+							id="address"
 							type="text"
 							class="form-control"
 							placeholder="Address"
@@ -38,6 +40,7 @@
 					<div class="input-group mb-3">
 						<span class="input-group-text" id="username">Phone</span>
 						<input
+							id="phone"
 							type="text"
 							class="form-control"
 							placeholder="Phone"
@@ -57,7 +60,9 @@
 			<div class="col-auto col-md-6 px-2 card">
 				<div class="row p-2">
 					<div class="col-md-5 p-3">
-						<a class="btn btn-outline-primary" href="/"> &lt;- Back to Cart</a>
+						<a class="btn btn-outline-primary" href="/cart">
+							&lt;- Back to Cart</a
+						>
 					</div>
 					<div class="col-md-4">
 						<h2><strong>Cart</strong></h2>

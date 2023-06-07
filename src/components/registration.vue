@@ -61,7 +61,7 @@
 								<span class="input-group-text">Birthday:</span>
 								<input
 									v-model="date"
-									id="=birthday"
+									id="birthday-input"
 									type="date"
 									class="form-control"
 									required
@@ -84,13 +84,15 @@
 					</div>
 
 					<div class="d-grid gap-2">
-						<button
+						<a
+							id="submitBtn"
+							href="/login"
 							type="submit"
 							value="submit"
 							class="btn btn-primary bt btn-block"
 						>
 							Submit
-						</button>
+						</a>
 					</div>
 				</form>
 			</div>
