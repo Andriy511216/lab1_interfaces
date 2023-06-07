@@ -1,39 +1,40 @@
 <template>
 	<div class="container-fluid login">
 		<div class="col-md-5 rounded justify-content-center">
-			<div class="card card-body login-content" >
+			<div class="card card-body login-content">
 				<form name="Sign_in" method="post">
-					<h1 >Sign in</h1>
+					<h1>Sign in</h1>
 					<div class="mb-md-3 d-grid gap-2">
 						<div class="form-floating">
 							<input
 								v-model="email"
 								type="email"
 								class="form-control"
-								id="floatingInput"
+								id="loginEmail"
 								placeholder="name@example.com"
 							/>
-							<label for="floatingInput">Email address</label>
+							<label for="loginEmail">Email address</label>
 						</div>
 						<div class="form-floating">
 							<input
 								v-model="password"
 								type="password"
 								class="form-control"
-								id="floatingPassword"
+								id="loginPassword"
 								placeholder="Password"
 							/>
-							<label for="floatingPassword">Password</label>
+							<label for="loginPassword">Password</label>
 						</div>
 					</div>
 					<div class="d-grid gap-2">
-						<button
+						<a
+							href="/profile"
 							type="submit"
 							v-on:click="login"
 							class="btn btn-primary bt btn-block"
 						>
 							Login
-						</button>
+						</a>
 					</div>
 
 					<p class="text-center">
